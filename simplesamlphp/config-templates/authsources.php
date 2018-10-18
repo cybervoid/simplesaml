@@ -50,13 +50,15 @@ $config = array(
 
 
 
-    'example-sql' => array(
-        'sqlauth:SQL',
-        'dsn' => 'mysql:host=localhost;port=5432;dbname=auth',
-        'username' => 'rafag',
-        'password' => 'Ov5J8fwOKEw9',
-        'query' => 'SELECT name,email,gender.mobile,desgination FROM users WHERE email = :email AND AES_DECRYPT(password,"zhwr2Ie8+AeJSKB2KKIya4KIO3FaYaxKo8MCUFSTcW0=") = :password',
-    ),
+	/*
+	'example-sql' => array(
+		'sqlauth:SQL',
+		'dsn' => 'pgsql:host=sql.example.org;port=5432;dbname=simplesaml',
+		'username' => 'simplesaml',
+		'password' => 'secretpassword',
+		'query' => 'SELECT uid, givenName, email, eduPersonPrincipalName FROM users WHERE uid = :username AND password = SHA2(CONCAT((SELECT salt FROM users WHERE uid = :username), :password),256);',
+	),
+	*/
 
 
     /*
