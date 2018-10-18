@@ -53,7 +53,7 @@ $config = array(
 		'dsn' => 'mysql:host=localhost;port=5432;dbname=auth',
 		'username' => 'rafag',
 		'password' => 'Ov5J8fwOKEw9',
-		'query' => 'SELECT name,email,gender.mobile,desgination FROM users WHERE email = :email AND AES_DECRYPT(password,"zhwr2Ie8+AeJSKB2KKIya4KIO3FaYaxKo8MCUFSTcW0=") = :password',
+		'query' => 'SELECT name,email,gender,mobile,desgination FROM users WHERE email = :email AND AES_DECRYPT(password,"zhwr2Ie8+AeJSKB2KKIya4KIO3FaYaxKo8MCUFSTcW0=") = :password',
 	),
 
 

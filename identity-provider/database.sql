@@ -93,7 +93,7 @@ CREATE TABLE `users` (
   `id` int(11) NOT NULL,
   `name` varchar(50) NOT NULL,
   `email` varchar(50) NOT NULL,
-  `password` VARBINARY(30) NOT NULL,
+  `password` VARBINARY(50) NOT NULL,
   `gender` varchar(50) NOT NULL,
   `mobile` varchar(50) NOT NULL,
   `designation` varchar(50) NOT NULL,

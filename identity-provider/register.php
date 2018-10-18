@@ -11,7 +11,7 @@ $final_file=str_replace(' ','-',$new_file_name);
 
 $name=$_POST['name'];
 $email=$_POST['email'];
-$password=md5($_POST['password']);
+$password=$_POST['password'];
 $gender=$_POST['gender'];
 $mobileno=$_POST['mobileno'];
 $designation=$_POST['designation'];
