@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/simplesamlphp/vendor/gettext/languages" />
+      <path value="$PROJECT_DIR$/simplesamlphp/vendor/robrichards/xmlseclibs" />
+      <path value="$PROJECT_DIR$/simplesamlphp/vendor/whitehat101/apr1-md5" />
+      <path value="$PROJECT_DIR$/simplesamlphp/vendor/simplesamlphp/saml2" />
+      <path value="$PROJECT_DIR$/simplesamlphp/vendor/composer" />
+      <path value="$PROJECT_DIR$/simplesamlphp/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/simplesamlphp/vendor/twig/extensions" />
+      <path value="$PROJECT_DIR$/simplesamlphp/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/simplesamlphp/vendor/gettext/gettext" />
+      <path value="$PROJECT_DIR$/simplesamlphp/vendor/jaimeperez/twig-configurable-i18n" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="5.4.0" />
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings load_method="CUSTOM_LOADER" custom_loader_path="$PROJECT_DIR$/simplesamlphp/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
+</project>

@@ -32,7 +32,8 @@ CREATE TABLE `admin` (
   `id` int(11) NOT NULL,
   `username` varchar(50) NOT NULL,
   `email` varchar(50) NOT NULL,
-  `password` varchar(50) NOT NULL
+  `password` varchar(50) NOT NULL,
+  `token` VARBINARY(50) NOT NULL DEFAULT "zhwr2Ie8+AeJSKB2KKIya4KIO3FaYaxKo8MCUFSTcW0="
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
