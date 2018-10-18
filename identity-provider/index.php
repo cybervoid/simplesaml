@@ -10,7 +10,7 @@ $sql ="SELECT email,password FROM users WHERE email=:email and AES_DECRYPT(passw
 $query= $dbh -> prepare($sql);
 $query-> bindParam(':email', $email, PDO::PARAM_STR);
 $query-> bindParam(':password', $password, PDO::PARAM_STR);
-
+$query->execute();
 $results=$query->fetchAll(PDO::FETCH_OBJ);
 if($query->rowCount() > 0)
 {
