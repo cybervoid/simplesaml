@@ -13,6 +13,7 @@ _(This is only for learning purposes, do not use for production)_
 `sudo ln -s /var/www/html/simplesaml/simplesamlphp/ /var/simplesamlphp`
 
 - create a vhost pointing to the identity provider directory
+- import the sql file located in identity-provider directory
 - check if user management is working:
     -username: admin
     -password: 963852741
