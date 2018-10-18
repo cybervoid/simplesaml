@@ -89,7 +89,7 @@ $config = array(
      *
      * See this page for a list of valid timezones: http://php.net/manual/en/timezones.php
      */
-    'timezone' => null,
+    'timezone' => 'America/New_York',
 
 
 
@@ -105,7 +105,7 @@ $config = array(
      * A possible way to generate a random salt is by running the following command from a unix shell:
      * LC_CTYPE=C tr -c -d '0123456789abcdefghijklmnopqrstuvwxyz' </dev/urandom | dd bs=32 count=1 2>/dev/null;echo
      */
-    'secretsalt' => 'defaultsecretsalt',
+    'secretsalt' => 'YG8geCRocYeiveBlhI8vWP5SOYnSJLiPS2V3iOzWpeU=',
 
     /*
      * This password must be kept secret, and modified from the default value 123.
@@ -113,7 +113,7 @@ $config = array(
      * metadata listing and diagnostics pages.
      * You can also put a hash here; run "bin/pwgen.php" to generate one.
      */
-    'auth.adminpassword' => '123',
+    'auth.adminpassword' => 'cornell_david_2018',
 
     /*
      * Set this options to true if you want to require administrator password to access the web interface
